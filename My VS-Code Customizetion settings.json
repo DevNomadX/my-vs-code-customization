@@ -1,0 +1,65 @@
+{
+    // Editor Customizetion*
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.suggest.preview": true,
+    "editor.fontFamily": "'cascadia code'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "bold",
+    "editor.autoClosingBrackets": "always",
+    "editor.matchBrackets": "always",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.semanticHighlighting.enabled": true,
+    //Python*    
+    "python.analysis.completeFunctionParens": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203",
+        "--ignore=E266",
+        "--ignore=E501",
+        "--ignore=W503",
+        "--max-line-length=88",
+        "--select = B,C,E,F,W,T4,B9",
+        "--max-complexity = 18"
+    ],
+    "python.defaultInterpreterPath": "C:\\Users\\hr120\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    //File*
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    //Code Runner*
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    // Vs Intellicode*
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "vsintellicode.python.completionsEnabled": true,
+    "vsintellicode.features.python.deepLearning": "enabled",
+    //Terminal*
+    "terminal.integrated.fontFamily": "'cascadia code'",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": true,
+    //Emmet
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.variables": {
+        "lang": "en",
+        "charset": "UTF-8"
+    },
+    // Indent
+    "workbench.tree.indent": 8,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.expandMode": "singleClick",
+    //Theme*
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Andromeda Italic",
+}
